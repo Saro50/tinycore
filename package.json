@@ -1,0 +1,34 @@
+{
+  "scripts": {
+    "build": "webpack",
+    "dev": "node ./dev/app.js"
+  },
+  "devDependencies": {
+    "@types/generic-pool": "^3.1.0",
+    "@types/koa": "^2.0.41",
+    "@types/long": "^3.0.32",
+    "@types/node": "^8.0.53",
+    "@types/redis": "^2.8.1",
+    "@types/webpack": "^3.8.1",
+    "body-parser": "^1.18.2",
+    "generic-pool": "^3.2.0",
+    "koa": "^2.4.1",
+    "koa-body": "^2.5.0",
+    "koa-exception": "^1.0.6",
+    "koa-helmet": "^3.3.0",
+    "koa-ip-filter": "^3.0.0",
+    "koa-joi-router": "^5.0.0",
+    "koa-log4": "^2.3.0",
+    "koa-multer": "^1.0.2",
+    "koa-router-joi-validator": "0.0.4",
+    "koa2-validation": "^0.1.0",
+    "long": "^3.2.0",
+    "moment": "^2.19.2",
+    "mysql": "^2.15.0",
+    "request": "^2.83.0",
+    "ts-loader": "^3.1.1",
+    "ts-node": "^3.3.0",
+    "typescript": "^2.6.1",
+    "webpack": "^3.8.1"
+  }
+}

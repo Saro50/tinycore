@@ -1,0 +1,25 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "module": "CommonJS",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "typeRoots": [
+            "./thirdparty_typing"
+        ],
+        "outDir": "./dev",
+        "allowJs": false,
+        "target": "ES2017",
+        "emitBOM": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "sourceMap": false
+    },
+    "include": [
+        "./src/**/*"
+    ],
+    "exclude": [
+        "./node_modules"
+    ]
+}
